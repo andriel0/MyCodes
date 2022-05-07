@@ -1,0 +1,12 @@
+import random
+sort = (random.randrange(1,10))
+tent = int(input('Try to hit the number of 1 to 10: '))
+while tent != sort:
+    if tent > sort:
+        print('The number you choosed is bigger than the right number.')
+        tent = int(input('Try to hit again the number of 1 a 10: '))
+    else:
+        print('The number you choosed is smaller than the right number.')
+        tent = int(input('Try to hit again the number of 1 a 10: '))
+if tent == sort:
+    print('You are right!!!')
