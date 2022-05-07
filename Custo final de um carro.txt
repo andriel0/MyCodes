@@ -1,0 +1,4 @@
+fac = input('Type the factory coust: ')
+fac = float(fac)
+totalc = fac + (fac*0.28) + (fac*0.45)
+print('The final coust to consumer:', totalc)
