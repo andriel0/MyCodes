@@ -1,0 +1,6 @@
+basis = input('Type the rectangle basis: ')
+basis = float(basis)
+height = input('Type the rectangle height: ')
+height = float(height)
+area = basis*height
+print("The rectangle area is", area)
