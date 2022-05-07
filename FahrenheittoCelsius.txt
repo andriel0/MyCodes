@@ -1,0 +1,4 @@
+fah = input('Type the Temperature in Fahrenheit: ')
+fah = float(fah)
+cel = 5*(fah-32)/9
+print('The converted Temperature in Celsius is:', cel)
