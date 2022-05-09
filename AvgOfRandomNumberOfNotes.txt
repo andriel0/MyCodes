@@ -1,0 +1,7 @@
+n_notes = int(input('Type the quantify of notes to be calculated: '))
+note = float(input('Type the note: '))
+for num in range(n_notes-1):
+    note1 = float(input('Type another note: '))
+    note = note + note1
+media = note / n_notes
+print(f'The media is {media:.2}')
