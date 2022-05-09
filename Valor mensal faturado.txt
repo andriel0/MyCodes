@@ -1,0 +1,7 @@
+val_ton = float(input('Digite o valor fixo da tonelada: '))
+quant_ton = int(input('Digite a quantidade de toneladas: '))
+val_faturado = val_ton * quant_ton
+while quant_ton>0:
+    quant_ton = int(input('Digite a quantidade de toneladas: '))
+    val_faturado = val_faturado + (val_ton * quant_ton)
+print(f'O valor total faturado no mês foi de {val_faturado:.2f}.')
